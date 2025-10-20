@@ -8,7 +8,7 @@ This project was developed as a personal final project to demonstrate proficienc
 ## Overview
 
 AuraBoutique is a fully responsive and visually appealing online store designed for showcasing and selling women’s clothing and fashion items.  
-The website provides a seamless browsing experience with multiple pages, each serving a unique purpose — from exploring products to managing the shopping cart.
+The website provides a seamless browsing experience with multiple pages, each serving a unique purpose — from exploring products to managing the shopping cart..
 
 ---
 
