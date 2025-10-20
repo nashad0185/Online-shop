@@ -35,7 +35,7 @@ body{
 }
 
 
-/* Overlay khafiif ah */
+
 .hero-overlay {
   position: absolute;
   top: 0;
@@ -48,7 +48,7 @@ body{
   justify-content: center;
 }
 
-/* Qoraalka dusha sawirka */
+
 .hero-content {
   color: #fff;
   text-align: center;
@@ -266,7 +266,7 @@ body{
   color: inherit;
 }
 
-/* Hot Deals */
+
 .hot-deals {
   margin-top: 100px;
   text-align: center;
@@ -380,7 +380,7 @@ body{
   background: #c69b8f;
 
 }
-/* Testimonials Carousel styles */
+/* Testimonials styles */
 .testimonials-page {
   background: #f9f9f9;
   padding: 70px 20px;
@@ -443,13 +443,13 @@ body{
   padding: 10px 0;
 }
 
-/* single card */
+
 .card {
   background: #fff;
   border-radius: 10px;
   padding: 24px;
   box-shadow: 0 6px 24px rgba(0,0,0,0.06);
-  min-width: 280px;             /* base width for responsive */
+  min-width: 280px;             
   flex: 0 0 auto;
   text-align: left;
   display: flex;
@@ -481,7 +481,7 @@ body{
 
 .client-info span { font-size: 0.8rem; color: #888; }
 
-/* services icons below */
+
 .services-icons {
   display: flex;
   justify-content: center;
@@ -516,7 +516,7 @@ body{
   margin: auto;
 }
 
-/* Left Side */
+
 .contact-left {
   flex: 1;
 }
@@ -535,7 +535,7 @@ body{
   line-height: 1.6;
 }
 
-/* Form */
+
 .form-group {
   display: flex;
   flex-direction: column;
@@ -574,7 +574,7 @@ textarea {
   resize: none;
 }
 
-/* Button */
+
 .sendBtn {
   margin-top: 10px;
   background: #c69b8f;
@@ -617,7 +617,7 @@ textarea {
 
 
 
-/* Hero Section */
+
 .hero {
   position: relative;
   width: 100%;
@@ -628,7 +628,7 @@ textarea {
 }
 
 
-/* ===== CART MODAL STYLE ===== */
+
 .cart-modal {
   display: none;
   position: fixed;
@@ -721,7 +721,7 @@ textarea {
     right: 195px;
 }
 
-/* ===== CART BADGE STYLING ===== */
+
 .cart-container {
   position: relative;
 }
@@ -748,8 +748,8 @@ textarea {
   z-index: 9999;
 }
 footer {
-  background-color:white; /* midabka footer */
-  color:  #222; /* midabka text-ka */
+  background-color:white; 
+  color:  #222; 
   padding: 20px 0;
   text-align: center;
   font-family: Arial, sans-serif;
@@ -783,7 +783,7 @@ html {
   scroll-behavior: smooth;
 }
 
-/* ======== MOBILE MENU FIX (<= 768px) ======== */
+/* ======== MOBILE MENU (<= 768px) ======== */
 @media (max-width: 768px) {
   .navbar {
     flex-direction: column;
