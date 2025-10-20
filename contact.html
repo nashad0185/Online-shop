@@ -1,0 +1,47 @@
+<section class="contact-section" id="contact">
+  <div class="container-contact">
+
+    <!-- Left Side (Form) -->
+    <div class="contact-left">
+      <h1 class="page-title">Contact Us</h1>
+      <p class="intro-text">We’d love to hear from you. Please fill in the form below and we’ll get back to you soon!</p>
+
+      <form id="contactForm">
+        <div class="form-group">
+          <label for="name"><i class="fa-solid fa-user"></i> Name</label>
+          <input type="text" id="name" name="name" placeholder="Your full name" required>
+        </div>
+
+        <div class="form-group">
+          <label for="email"><i class="fa-solid fa-envelope"></i> Email</label>
+          <input type="email" id="email" name="email" placeholder="example@email.com" required>
+        </div>
+
+        <div class="form-group">
+          <label for="message"><i class="fa-solid fa-comment-dots"></i> Message</label>
+          <textarea id="message" name="message" placeholder="Type your message..." required></textarea>
+        </div>
+
+        <button class="sendBtn" type="submit">
+          <span class="btn-text">Send Message</span>
+          <i class="fa-solid fa-spinner fa-spin" id="spinner"></i>
+        </button>
+      </form>
+    </div>
+
+    <!-- Right Side (Map only) -->
+    <div class="contact-right">
+      <div class="map">
+        <iframe 
+          src="https://www.google.com/maps?q=Mogadishu,+Somalia&output=embed"
+          width="100%" 
+          height="100%" 
+          style="border:0;" 
+          allowfullscreen="" 
+          loading="lazy">
+        </iframe>
+      </div>
+    </div>
+
+  </div>
+</section>
