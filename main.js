@@ -1,6 +1,6 @@
-// main.js — replace your old file with this (or paste at end in a <script> tag)
+
 document.addEventListener("DOMContentLoaded", () => {
-  /* ====== NAVBAR (mobile toggle + close on link click) ====== */
+  
   const toggleButton = document.querySelector('.toggle-button');
   const navbar = document.querySelector('.navbar');
   const navbarLinksWrap = document.querySelector('.navbar-links');
@@ -23,7 +23,7 @@ document.addEventListener("DOMContentLoaded", () => {
     });
   });
 
-  /* ====== SMOOTH SCROLL FOR INTERNAL LINKS (including hero button) ====== */
+  
   // hero button (use class .hero-btn) - fallback if exists
   const heroBtn = document.querySelector('.hero-btn');
   const productsSection = document.getElementById('product-page'); // matches your HTML id
@@ -45,7 +45,7 @@ document.addEventListener("DOMContentLoaded", () => {
     });
   });
 
-  /* ====== CART STORAGE, ADD, COUNT, NOTIFICATION ====== */
+  // /* ====== CART STORAGE
   let cart = JSON.parse(localStorage.getItem('cart')) || [];
   const cartCounter = document.getElementById('cart-count');
   const cartIcon = document.getElementById('cart-icon');
@@ -103,7 +103,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
   updateCartCount();
 
-  /* ====== CART MODAL (open, close, render, remove, clear) ====== */
+  // CART MODAL
   const cartModal = document.getElementById('cart-modal');
   const closeCartBtn = document.querySelector('.close-cart');
   const cartItemsContainer = document.getElementById('cart-items');
