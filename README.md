@@ -35,7 +35,7 @@ The website contains *6 main pages*:
 
 ---
 
-## 🖥 Features
+# 🖥 Features
 
 - Fully responsive design for desktop and mobile.  
 - Interactive navigation bar linking all pages.  
